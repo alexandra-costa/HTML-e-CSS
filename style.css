@@ -1,6 +1,10 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+  }
 html, body {
- 
-  box-sizing: border-box;
   background-color: #C1DEFF;
   font-family: monospace;
 }
@@ -12,38 +16,56 @@ margin: 30px;
 justify-content: left;
 }
 
-.navbar {
-    background-color: #d4c7ff;
+header nav ul{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d4c7ff;
+    min-height: 5em;
     border: 1px solid;
     border-color: #b2f4ca;
+    margin-bottom: 30px;
 }
 
-.ul-nav {
-    margin: 0 auto;
-    justify-content: space-between;
-    max-width: 1000px;
+ul{
+    list-style: none;
+    outline: none;
+    letter-spacing: 2px;
+}
+@media only screen and (max-width: 768px) {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+        justify-content: center;
+    }
 
+}
+
+a{
+    text-decoration: none;
+    color: var(--light-blue);
 }
 
 li {
     padding: 7px;
-    margin: 0 100px;
-    margin-left: 110px;
-    display: inline-block;
     list-style: none;
     font-size: larger;
 }
 
 li:hover {
-    color: #b2f4ca;
+    background: #656868;
+    color: #d4c7ff;
     cursor: pointer;   
+    border-radius: 25px;
 }
 
 .container {
-    margin-top: 2%;
+    margin: 2%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .article1 {
@@ -51,7 +73,7 @@ li:hover {
     margin-right: 2%;
     height: 698px;
     width: 25%;
-    overflow: hidden;
+    overflow: scroll;
     background-color: #F9F1A8;
     border-color: #b2f4ca;
 }
@@ -61,9 +83,10 @@ li:hover {
     height: 698px;
     width: 75%;
     font-size: 12px;
-    overflow: hidden;
+    overflow: scroll;
     background-color: #F9F1A8;
     border-color: #b2f4ca;
+    margin-right: 4%;
 }
 
 .text1 {
@@ -85,7 +108,7 @@ li:hover {
 }
 
 .ul-font {
-    display: block;
+    display: flex;
     list-style-type: disc;
     margin-block-start: 3em;
     margin-block-end: 4em;
