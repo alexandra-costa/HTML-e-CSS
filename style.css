@@ -96,7 +96,13 @@ li:hover {
   margin-inline-start: 3px;
   margin-inline-end: 3px;
   font-size: medium;
+}   
+
+@media only screen and (max-width: 320px) {
+ .text1 {font-size: 10px;}
+
 }
+
 
 .text2 {   
     display: block;
