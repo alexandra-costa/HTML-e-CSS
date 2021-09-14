@@ -99,10 +99,11 @@ li:hover {
 }   
 
 @media only screen and (max-width: 320px) {
- .text1 {font-size: 10px;}
-
+ .text1 {
+     font-size: 10px; 
 }
 
+}
 
 .text2 {   
     display: block;
