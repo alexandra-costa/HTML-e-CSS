@@ -24,6 +24,7 @@ html, body {
     border: 1px solid;
     border-color: #b2f4ca;
     margin-bottom: 30px;
+    box-shadow: 10px 5px 5px gray;
  
 }
 .imgimg {
@@ -56,7 +57,7 @@ form {
     padding: 4em;
     border: 1px solid #CCC;
     border-radius: 1em;
-    background-color: #D4C7FF;
+    background-color:#F9F1A8;
     box-shadow: 10px 5px 5px gray;
   }
 
@@ -112,6 +113,7 @@ form {
     background-color:#C1DEFF;
     padding: 1em 2em;
     border-radius: 7px;
+    border-color: #C1DEFF;
   }
 
 @media (max-width: 400px) {
