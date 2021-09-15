@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade.com/contact</title>
+    <link rel="stylesheet" href="contactStyle.css">
+</head>
+<body>
+    <header>
+            <nav>
+             <div class="container"> 
+                <div class="ul-navbar">
+                  <div class= "icon">
+                    <img src="arcade.png" width="50px" alt="game">
+                  </div>
+                  <div class="homeTitle">
+                   <h2><a href="index.html">HOME</a></h2> 
+                  </div>
+                </div>
+              </div>
+              </nav> 
+      </header>
+      <form action="/formulario-contato" method="post">
+        <div class="label-nome">
+            <label for="nome">Nome:</label>
+            <input type="texto" id="nome" name="nome_usuario">
+        </div>
+        <div class="label-email">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email_usuario">
+        </div>
+        <span class="span-arcade">Jogos Arcade:</span>
+            <select class="select" name="select" id="select">
+                <option value="marvelVsCapcom">Marvel vs Capcom</option>
+                <option value="streetFighter">Street Fighter</option>
+                <option value="donkeyKong">Donkey Kong</option>
+                <option value="PacMan">Pac-Man</option>
+                <option value="metalSlug">Metal Slug</option>
+                <option value="doubleDragon">Double Dragon</option>
+                <option value="pinball">Pinball</option>
+                <option value="goldenAxe">Golden Axe</option>
+            </select>
+        <div class="textLabel">
+            <label for="texto">Sua opinião:</label>
+            <textarea id="texto" name="texto_usuario"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar</button>
+          </div>
+    </form>
+</body>
+</html>

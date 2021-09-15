@@ -16,9 +16,9 @@ margin: 30px;
 justify-content: left;
 }
 
-header nav ul {
+.ul-navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #d4c7ff;
     min-height: 5em;
@@ -27,37 +27,46 @@ header nav ul {
     margin-bottom: 30px;
 }
 
-ul {
-    list-style: none;
-    outline: none;
-    letter-spacing: 2px;
-}
-@media only screen and (max-width: 768px) {
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 10px;
-        justify-content: center;
+.container {
+    width: 50%; 
+    position: relative; 
+  }
+  label {display:block;}
+  input {width: 100%;} 
+  input,  button {
+        padding: 10px;
+        border-radius: 10px;
+        border-color: black;
+        background: lightgrey;
     }
-
-}
+  button {
+    position: absolute;   
+    top: 0; 
+    right: 0;
+    background: #d4c7ff ;
+  }
 
 a {
     text-decoration: none;
     color: var(--light-blue);
+    font-size: large;
 }
-
-li {
-    padding: 7px;
-    list-style: none;
-    font-size: larger;
-}
-
-li:hover {
+a:hover{
     background: #656868;
     color: #d4c7ff;
     cursor: pointer;   
-    border-radius: 7px;
+    border-radius: 5px;
+}
+
+h2:hover {
+    background: #656868;
+    color: #d4c7ff;
+    cursor: pointer;   
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: large;
 }
 
 .container {
@@ -95,13 +104,15 @@ li:hover {
   margin-block-end: 1em;
   margin-inline-start: 3px;
   margin-inline-end: 3px;
-  font-size: medium;
+  font-size: large;
+  letter-spacing: 10px;
 }   
 
 @media only screen and (max-width: 320px) {
  .text1 {
      font-size: 10px; 
 }
+
 
 }
 
@@ -112,14 +123,4 @@ li:hover {
     margin-inline-start: 3px;
     margin-inline-end: 3px;
     font-size: large;
-}
-
-.ul-font {
-    display: flex;
-    list-style-type: disc;
-    margin-block-start: 3em;
-    margin-block-end: 4em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
