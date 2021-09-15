@@ -25,6 +25,7 @@ justify-content: left;
     border: 1px solid;
     border-color: #b2f4ca;
     margin-bottom: 30px;
+    box-shadow: 10px 5px 5px gray;
 }
 
 .container {
@@ -43,7 +44,8 @@ justify-content: left;
     position: absolute;   
     top: 0; 
     right: 0;
-    background: #d4c7ff ;
+    background: #d4c7ff;
+    box-shadow: 10px 5px 5px gray;
   }
 
 a {
@@ -85,6 +87,7 @@ h3 {
     overflow: scroll;
     background-color: #F9F1A8;
     border-color: #b2f4ca;
+    box-shadow: 10px 5px 5px gray;
 }
 
 .article2 {
@@ -96,6 +99,7 @@ h3 {
     background-color: #F9F1A8;
     border-color: #b2f4ca;
     margin-right: 4%;
+    box-shadow: 10px 5px 5px gray;
 }
 
 .text1 {
@@ -124,3 +128,14 @@ h3 {
     margin-inline-end: 3px;
     font-size: large;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d4c7ff;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+ }

@@ -12,6 +12,7 @@ html, body {
 .container {
     margin-left: 0;
     margin-right: auto;
+    width: 100%;
 }
 
 .ul-navbar {
@@ -23,6 +24,7 @@ html, body {
     border: 1px solid;
     border-color: #b2f4ca;
     margin-bottom: 30px;
+ 
 }
 .imgimg {
     width: 50px;
@@ -55,7 +57,17 @@ form {
     border: 1px solid #CCC;
     border-radius: 1em;
     background-color: #D4C7FF;
+    box-shadow: 10px 5px 5px gray;
   }
+
+ @media (max-width: 400px) {
+    form { margin: 0 auto;
+    width: 280px;
+    padding: 4em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #D4C7FF; }
+ }
   
   form div + div {
     margin-top: 1em;
@@ -74,6 +86,12 @@ form {
     box-sizing: border-box;
     border: 1px solid #999;
     border-radius: 10px;
+  }
+
+  @media (max-width: 400px) {
+      input, textarea {
+          width: 170px;
+      }
   }
   
   input:focus, textarea:focus {
@@ -95,6 +113,13 @@ form {
     padding: 1em 2em;
     border-radius: 7px;
   }
+
+@media (max-width: 400px) {
+    button {
+        margin: 0 -50px;
+    }
+}
+
   .span-arcade {
    font-family: monospace;
   }
@@ -102,3 +127,14 @@ form {
     border-radius: 7px;
     margin: 16px;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d4c7ff;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+ }
