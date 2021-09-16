@@ -84,7 +84,7 @@ h3 {
     margin-right: 2%;
     height: 698px;
     width: 25%;
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: #F9F1A8;
     border-color: #b2f4ca;
     box-shadow: 10px 5px 5px gray;
@@ -95,7 +95,7 @@ h3 {
     height: 698px;
     width: 75%;
     font-size: 12px;
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: #F9F1A8;
     border-color: #b2f4ca;
     margin-right: 4%;
