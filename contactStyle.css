@@ -67,7 +67,7 @@ form {
     padding: 4em;
     border: 1px solid #CCC;
     border-radius: 1em;
-    background-color: #D4C7FF; }
+    background-color: #F9F1A8; }
  }
   
   form div + div {
@@ -87,6 +87,7 @@ form {
     box-sizing: border-box;
     border: 1px solid #999;
     border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
   }
 
   @media (max-width: 400px) {
@@ -114,6 +115,7 @@ form {
     padding: 1em 2em;
     border-radius: 7px;
     border-color: #C1DEFF;
+    box-shadow: 10px 5px 5px gray;
   }
 
 @media (max-width: 400px) {
