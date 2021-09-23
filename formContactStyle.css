@@ -1,13 +1,4 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    text-align: justify;
-  }
-html, body {
-  background-color: #C1DEFF;
-  font-family: monospace;
-}
+@import url(Global.css);
 
 .imgimg {
 width: 50px;
@@ -28,10 +19,15 @@ justify-content: left;
     box-shadow: 10px 5px 5px gray;
 }
 
+.icon {
+  background: var(--light-purple);
+}
+
 a {
     text-decoration: none;
-    color: var(--light-blue);
+    color: var(--black);
     font-size: large;
+    background-color: var(--light-purple);
 }
 a:hover{
     background: #656868;
@@ -78,4 +74,5 @@ form {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    background-color: var(--light-yellow);
 }
