@@ -7,15 +7,19 @@
     <link rel="shortcut icon" href="arcade.ico" type="image/x-icon">
     <title>Arcade.com</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Global.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
 
   <header>
     <nav>
-      <div class="ul-navbar">
-        <div class= "icon">
+      <div id="navbar" class="ul-navbar">
+        <button id="btn" onclick="foo(event)"> 
+          <div class= "icon">
           <img src="arcade.png" width="50px" alt="game">
         </div>
+       </button>
         <div class="homeTitle">
          <h2><a id="home" href="#top">HOME</a></h2> 
         </div>
@@ -34,22 +38,22 @@
 
   <div class="container">
 
-     <article class="article1">
-
+     <article id="art1" class="article1">
+    
       <h3> ÍNDICE </h3>
       <hr> 
        <p class="text1">
        <ul>
-         <li><a href="https://pt.wikipedia.org/wiki/Arcade#Jogos_de_A%C3%A7%C3%A3o_Arcade" target="_blank"> 1.Ação Arcade</a></li>
-         <li><a href="https://pt.wikipedia.org/wiki/Arcade#Hist%C3%B3ria" target="_blank"> 2.História</a></li>
-         <li><a href="https://pt.wikipedia.org/wiki/Arcade#Emula%C3%A7%C3%A3o" target="_blank"> 3.Emulação</a></li>
-         <li><a href="https://pt.wikipedia.org/wiki/Arcade#Refer%C3%AAncias" target="_blank"> 4.Ref.</a></li>
+         <li id="acao"><a href="https://pt.wikipedia.org/wiki/Arcade#Jogos_de_A%C3%A7%C3%A3o_Arcade" target="_blank"> 1.Ação Arcade</a></li>
+         <li id="historia"><a href="https://pt.wikipedia.org/wiki/Arcade#Hist%C3%B3ria" target="_blank"> 2.História</a></li>
+         <li id="emul"><a href="https://pt.wikipedia.org/wiki/Arcade#Emula%C3%A7%C3%A3o" target="_blank"> 3.Emulação</a></li>
+         <li id="ref"><a href="https://pt.wikipedia.org/wiki/Arcade#Refer%C3%AAncias" target="_blank"> 4.Ref.</a></li>
        </ul>
        </p>
 
      </article>
 
-     <article class="article2">
+     <article id="art2" class="article2">
        <h3> ARCADE </h3>
        <hr>
        <p class="text2">
@@ -60,7 +64,7 @@
   
     </div>
     <div class="footer">
-      <p>foo</p>
+      <p id="foot">foo</p>
     </div>
 </body>
 </html>
