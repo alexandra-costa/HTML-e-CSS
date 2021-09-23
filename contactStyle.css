@@ -99,7 +99,7 @@ form {
   }
   
   input, textarea {
-    font: 2em  monospace;
+    font: 2em;
     width: 300px;
     height: 2em;
     font-size: 15px;
