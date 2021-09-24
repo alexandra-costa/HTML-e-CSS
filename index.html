@@ -24,10 +24,10 @@
          <h2><a id="home" href="#top">HOME</a></h2> 
         </div>
         <div class="contactTitle">
-          <h2><a id="contact" href="#openModal">CONTACT</a></h2>
+          <h2><a id="contact" onclick="openModal()" href="#openModal">CONTACT</a></h2>
           <div id="openModal" class="modal">
             <a href="#close" title="Close" class="close">
-              <img id="closeImage" src="cancel.png" alt="close">
+              <img id="closeImage" onclick="closeModal()"src="cancel.png" alt="close">
             </a>
             <form id="form1" action="/form-contact.html" method="get" autocomplete>
               <div class="label-nome">

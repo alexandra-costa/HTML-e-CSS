@@ -11,5 +11,12 @@ function foo(e) {
       article2.style.maxWidth = "100%"
     }
   }
+
+  function openModal() {
+    document.getElementById("contact").style.top = '0';
+  }
  
+  function closeModal() {
+    document.getElementById("closeImage").style.top = '-1025';
+  }
         
