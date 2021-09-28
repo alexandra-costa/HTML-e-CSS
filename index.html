@@ -20,16 +20,20 @@
           <img src="arcade.png" width="50px" alt="game">
         </div>
        </button>
-        <div class="homeTitle">
-         <h2><a id="home" href="#top">HOME</a></h2> 
+        <div class="homeTitle"class="tooltip">
+         <h2><a id="home" href="#top">HOME</a>
+          <span class="tooltiptext">Tem nada aqui não</span></h2> 
+         
         </div>
         <div class="contactTitle">
-          <h2><a id="contact" onclick="openModal()" href="#openModal">CONTACT</a></h2>
+          <h2><a id="contact" class="tooltip" onclick="openModal()" href="#openModal">CONTACT</a></h2>
+          <span class="tooltiptext">abre o modal</span>
           <div id="openModal" class="modal">
             <a href="#close" title="Close" class="close">
               <img id="closeImage" onclick="closeModal()"src="cancel.png" alt="close">
             </a>
             <form id="form1" action="/form-contact.html" method="get" autocomplete>
+             
               <div class="label-nome">
                   <label for="name" id="nome">Nome:</label>
                   <input autofocus type="name" id="name1" name="nome" autocomplete="name" required>
@@ -101,7 +105,25 @@
   
     </div>
     <div class="footer">
-      <p id="foot">foo</p>
+      <aside class="footer-left">
+       <h4>Contact</h4> 
+       <br>
+       <h5>(51)99999-8888</h5>
+       <br>
+       <h5>(51)98888-7777</h5>
+      </aside>
+
+      <aside class="footer-right">
+       <h4>Follow us </h4> 
+       <br>
+       <img class="footer-image" src="facebook.png" alt="facebook">
+       <br>
+       <img class="footer-image" src="instagram.png" alt="instagram">
+      </aside>
+
+      <aside class="footer-center">
+        Concorra a prêmios todos os anos!
+      </aside>
     </div>
 </body>
 </html>

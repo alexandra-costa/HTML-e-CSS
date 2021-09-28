@@ -4,8 +4,9 @@ function foo(e) {
     const article2 = document.getElementById("art2");
     
     if (article1.style.maxWidth === "") {
+      article1.style.position = "absolute";
       article1.style.maxWidth = "25%";
-      article2.style.maxWidth = "75%";
+      article2.style.maxWidth = "100%";
     } else {
       article1.style.maxWidth = "";
       article2.style.maxWidth = "100%"
@@ -17,6 +18,6 @@ function foo(e) {
   }
  
   function closeModal() {
-    document.getElementById("closeImage").style.top = '-1025';
+    document.getElementById("closeImage ").style.top = '-1025';
   }
         
